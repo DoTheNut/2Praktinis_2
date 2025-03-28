@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useParams } from "react-router-dom";
 import axios from "axios";
-
+// npm install axios ;; npm install json-server --save-dev
 const API_URL = "https://dummyjson.com/recipes";
 const FAVORITES_URL = "http://localhost:3001/favorites";
 
